@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { Auth0Provider } from '@auth0/auth0-react';
-const domain = "";
-const clientId = "";
+import Auth0ProviderWithHistory from './auth/AuthHistory';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+
 ReactDOM.render(
-    <Auth0Provider
-        domain={domain}
-        clientId={clientId}
-        redirectUri={window.location.origin}
-      >        
-        <App />
-      </Auth0Provider>,
+    <Router>
+        <Auth0ProviderWithHistory>        
+            <App />
+        </Auth0ProviderWithHistory>
+    </Router>,
+    
     document.getElementById('root'),
 );
 //ReactDOM.render(<App />, document.getElementById('root'));
