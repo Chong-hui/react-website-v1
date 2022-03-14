@@ -3,8 +3,8 @@ import { useHistory } from 'react-router-dom';
 import { Auth0Provider } from '@auth0/auth0-react';
 
 const Auth0ProviderWithHistory = ({ children }) => {
-  const domain = "dev-s4jkne9p.us.auth0.com";
-  const clientId = "HByXjWpgJknWUlnWtnZZXqX3XuLj68hT";  
+  const domain = "";
+  const clientId = "";  
 
   const history = useHistory();
 
