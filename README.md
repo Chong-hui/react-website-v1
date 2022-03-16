@@ -6,7 +6,7 @@ Spinner components documentation [here](https://mhnpd.github.io/react-loader-spi
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to be placed in `.env` found in the `src`. For credentials do ask around. 
+To run this project, you will need to add the following environment variables to be placed in `.env` which should be placed in the root folder. For credentials do ask around. 
 
 `REACT_APP_AUTH0_DOMAIN`
 
