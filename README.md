@@ -6,13 +6,11 @@ Spinner components documentation [here](https://mhnpd.github.io/react-loader-spi
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to be placed in `src/auth/AuthHistory.js`
+To run this project, you will need to add the following environment variables to be placed in `.env` found in the `src`. For credentials do ask around. 
 
-`domain`
+`REACT_APP_AUTH0_DOMAIN`
 
-`clientId`
-
-TODO shift this to .env soon
+`REACT_APP_AUTH0_CLIENT_ID`
 
 
 ## To run
